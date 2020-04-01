@@ -1,0 +1,31 @@
+{
+	"Src": {
+		"Application": {
+			"Controller": {
+				"UserAuth.php": {}
+			},
+			"Entity": {
+				"User.php": {}
+			}
+		},
+		"Domain": {
+			"UserAuth": {
+				"UseCase": {
+					"AdminCreateUser.php": {}
+				},
+				"Entity": {
+					"User.php": {}
+				},
+				"ValueObject": {},
+				"AggregateRoot": {},
+				"Service": {
+					"AdminCreateUser.php": {}
+				},
+				"RepositoryInterface": {
+					"UserRepositoryInterface.php": {}
+				}
+			}
+		},
+		"Test": {}
+	}
+}

@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "glob": "^7.1.6",
     "jsondir": "^0.1.3"
   }
 }
