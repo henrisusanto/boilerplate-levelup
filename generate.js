@@ -42,6 +42,7 @@ function fillingFiles (app_map)
                     filename = filename[filename.length - 1]
                     let classname = filename.replace(`.php`, ``)
                     let namespace = path.replace(`/${filename}`, ``).split(`/`).join(`\\`)
+                    namespace = namespace.charAt(0).toUpperCase() + namespace.slice(1)
 
                     let currentfilecontent = fs
                         .readFileSync(path, `utf-8`)

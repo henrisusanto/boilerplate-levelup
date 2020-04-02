@@ -1,5 +1,5 @@
 {
-	"Src": {
+	"src": {
 		"Application": {
 			"Controller": {
 				"UserAuth.php": {}
