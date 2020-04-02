@@ -10,9 +10,6 @@
 		},
 		"Domain": {
 			"UserAuth": {
-				"UseCase": {
-					"AdminCreateUser.php": {}
-				},
 				"Entity": {
 					"User.php": {}
 				},
