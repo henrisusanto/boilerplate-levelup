@@ -19,8 +19,14 @@ class AdminCreateUser
 
 	public function execute (string $username, string $password)
 	{
-		$user = new DomainEntity\User($username, $password);
-		return $this->userConcreteRepo->create($user);
+		try
+		{
+			$user = new DomainEntity\User($username, $password);
+			$this->userConcreteRepo->create($user);
+			return 'success';
+		} catch (Exception $e) {
+			return $e->getMessage();
+		}
 	}
 
 }
